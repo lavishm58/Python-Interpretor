@@ -1,0 +1,11 @@
+n:=(1+1)+ (1*2);
+fact:=1;
+count:=n;
+while count!=0;
+fact :=fact*count;
+count :=count-1;
+done;
+print "Factorial is";
+print\n;
+printfact;
+printfact * 4;
